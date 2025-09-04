@@ -2,7 +2,7 @@
 
 A production‑ready toolkit to **ingest, normalize, analyze, and narrate** U.S. banking market data using FDIC Summary of Deposits (SOD) and IRS ZIP‑code statistics. It combines a local analytics warehouse with LLM‑powered agents for natural‑language questions and automated reporting (the **Local + LLM** pattern).
 
-This project was built June of 2025 in Honolulu, HI. Built to only scan and transform data from HAWAII BASED BANKS. 
+This project was built June of 2025 in Honolulu, HI, for the use of Bank of Hawaii. Built to only scan and transform data from HAWAII BASED BANKS. 
 
 ---
 
@@ -11,6 +11,18 @@ This project was built June of 2025 in Honolulu, HI. Built to only scan and tran
 * **Goal:** ZIP‑level market‑share and growth analysis for banks/credit unions; generate explainable briefs and exportables.
 * **Stack:** Python • Pandas • PyArrow/Parquet • SQLAlchemy • DuckDB/SQLite/Postgres • (optional) GeoPandas • gspread • n8n hooks • OpenAI / Vertex AI.
 * **Pattern:** Heavy work runs **locally** in SQL/dataframes; LLMs translate questions → safe SQL + prose.
+
+---
+
+
+## Query
+
+"Show me the market distribution in Manoa"
+
+# Result:
+
+20250902_231214_Manoa Deposit Analysis in 2024.pptx
+<img width="1549" height="872" alt="image" src="https://github.com/user-attachments/assets/b5a824a4-15bf-475a-bdfc-2df579ba5cb0" />
 
 ---
 
