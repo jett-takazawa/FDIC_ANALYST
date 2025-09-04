@@ -2,6 +2,8 @@
 
 A production‑ready toolkit to **ingest, normalize, analyze, and narrate** U.S. banking market data using FDIC Summary of Deposits (SOD) and IRS ZIP‑code statistics. It combines a local analytics warehouse with LLM‑powered agents for natural‑language questions and automated reporting (the **Local + LLM** pattern).
 
+I built a system that turns ad-hoc questions into board-ready visuals in minutes—not hours. During my internship, meetings often veered into new tangents and stakeholders asked for data we hadn’t prepped. This tool lets analysts use plain-English queries to instantly generate clean, on-brand PowerPoint decks, so conversations stay data-driven and momentum never stalls.
+
 This project was built June of 2025 in Honolulu, HI, for the use of Bank of Hawaii. Built to only scan and transform data from HAWAII BASED BANKS. 
 
 ---
