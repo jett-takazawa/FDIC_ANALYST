@@ -1,0 +1,26 @@
+import json, glob, os
+
+# Load the deposit map
+with open('cagr_dep_data/hi_deposits_2012_by_zip.json') as f:
+    deposit_map = json.load(f)
+
+# Find all per-year files
+files = glob.glob('data_2012.json')
+if not files:
+    print("No data_*.json files found in", os.getcwd())
+    exit(1)
+
+for path in files:
+    with open(path) as f:
+        records = json.load(f)
+
+    # Augment each record
+    for rec in records:
+        zip_key = str(rec['zipCode'])
+        rec['Total_Deposit'] = deposit_map.get(zip_key, 0)
+
+    out_path = path.replace('.json', '_with_deposits.json')
+    with open(out_path, 'w') as f:
+        json.dump(records, f, indent=2)
+
+    print(f"→ Wrote {len(records)} records to {out_path}")
