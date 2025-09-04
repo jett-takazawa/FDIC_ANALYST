@@ -1,0 +1,24 @@
+Variable,Strength,Direction,Correlation,Definition,
+investmentInterestPaidAmount,Strong,Positive,0.525622919, Investment interest paid amount
+foreignTaxCreditAmount,Strong,Positive,0.498335041,Foreign tax credit amount
+taxableinterestAmount,Moderate,Positive,0.430192686,Taxable interest amount
+selfEmployedRetirementPlansAmount,Moderate,Positive,0.395375332, Self employed (Keogh) retirement plans amount
+businessOrProfessionalNetIncomeAmount,Moderate,Positive,0.378741139, Business or professional net income (less loss) amount
+alternativeMinimumTaxAmount,Moderate,Positive,0.37604638, Alternative minimum tax amount
+additionalMedicareTaxAmount,Moderate,Positive,0.370088765, Additional Medicare tax amount
+totalStatutoryAdjustmentsAmount,Moderate,Positive,0.369417273, Number of returns with total statutory adjustments
+selfEmploymentTaxAmount,Moderate,Positive,0.356835343, Self-employment tax amount
+qualifiedBusinessIncomeDeductionAmount,Moderate,Positive,0.353380905, Qualified business income deduction
+returnsWithSelfEmployedRetirementPlans,Moderate,Positive,0.350129289, Number of returns with Self-Employed (Keogh) retirement plans
+taxLiabilityAmount,Moderate,Positive,0.349962942, Total tax liability amount
+partnershipNetIncomeAmount,Moderate,Positive,0.334147595, Partnership/S-Corp net income (less loss) 
+netCapitalGainAmount,Moderate,Positive,0.327275365,  Net capital gain (less loss) amount
+iraPaymentAmount,Moderate,Positive,0.324213135, Individual retirement arrangement payments amount
+selfEmployedHealthInsuranceDeductionAmount,Moderate,Positive,0.321247929, Self-employed healthinsurance deduction amount
+totalMedicalDentalDeductionAmount,Moderate,Positive,0.320927279, Total medical and dental expense deduction amount
+returnsWithSelfEmployedHealthInsuranceDeduction,Moderate,Positive,0.319183385, Number of returns with self-employed health insurance deduction
+ordinaryDividendsAmount,Moderate,Positive,0.317683304, Ordinary dividends amount
+returnsWithInvestmentInterestPaid,Moderate,Positive,0.317553728, Number of returns with investment interest paid 
+returnsWithAlternativeMinimumTax,Moderate,Positive,0.317391053, Number of returns with alternative minimum tax 
+incomeTaxAfterCreditAmount,Moderate,Positive,0.310730942, Income tax after credits amount
+returnsWithTaxLiability,Moderate,Positive,0.303705848, Number of returns with tax liability
